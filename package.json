@@ -1,0 +1,27 @@
+{
+    "name": "netlify-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "clean": "rimraf dist",
+        "build": "npm run clean && babel src -d dist --copy-files"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markus-willems/netlify-test.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/markus-willems/netlify-test/issues"
+    },
+    "homepage": "https://github.com/markus-willems/netlify-test#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "rimraf": "^2.6.2"
+    }
+}
