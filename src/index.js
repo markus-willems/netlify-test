@@ -1,6 +1,6 @@
 window.onload = () => {
     const div = createElement('div');
-    setText(div, 'Hello, world!');
+    setText(div, 'Node version: ' + NODE_VERSION);
     appendElement(document.getElementById('root'), div);
 };
 
